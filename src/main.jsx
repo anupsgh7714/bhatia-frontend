@@ -38,7 +38,8 @@ const router = createBrowserRouter([
       },
     ]
   },
-])
+],
+{basename:"/bhatia-frontend"})
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
